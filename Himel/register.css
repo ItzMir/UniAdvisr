@@ -1,0 +1,96 @@
+:root {
+  --bg: #06111f;
+  --bg-2: #091a2e;
+  --glass: rgba(255, 255, 255, 0.08);
+  --glass-strong: rgba(255, 255, 255, 0.12);
+  --line: rgba(255, 255, 255, 0.14);
+  --text: #f5fbff;
+  --muted: rgba(245, 251, 255, 0.78);
+  --accent: #00e5ff;
+  --accent-2: #2fffd7;
+  --accent-soft: rgba(0, 229, 255, 0.12);
+  --accent-dark: #00b8d4;
+  --shadow: 0 18px 55px rgba(0, 0, 0, 0.28);
+  --radius-xl: 28px;
+  --radius-lg: 22px;
+  --radius-md: 16px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(photo-1477281765962-ef34e8bb0967.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.bigcontainer{
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+    
+   
+    justify-content: center;
+    height: 700px;
+   gap: 25px;
+   border: 2px solid white;
+   width: 40%;
+   border-radius: 20px;
+   background-color: rgba(0, 0, 0, 0.2);
+   
+   
+}
+.name{
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 5px;
+   margin-left: 30%;
+   color: white;
+}
+button{
+    width: 200px;
+    height: 35px;
+    border-radius: 30px;
+    margin-left: 37%;
+    
+}
+input, select{
+    height: 30px;
+    width: 300px;
+    border-radius: 15px;
+    padding-left: 8px;
+    padding-left: 5px;
+    margin-left: 5px;
+    margin-left: 30%;
+}
+select{
+    width: 315px;
+    height: 35px;
+}
+.p{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.nev{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+}
+.register-btn:hover{
+  transform: translateY(-4px);
+  background:#00e5ff;
+  border-color: rgba(0, 229, 255, 0.35);
+  transition: 0.3s;
+}
